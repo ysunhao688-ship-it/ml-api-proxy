@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/sites/:path*", "destination": "/api/sites/:path*" },
+    { "source": "/trends/:path*", "destination": "/api/trends/:path*" },
+    { "source": "/currency_conversions/:path*", "destination": "/api/currency_conversions/:path*" },
+    { "source": "/categories/:path*", "destination": "/api/categories/:path*" },
+    { "source": "/items/:path*", "destination": "/api/items/:path*" },
+    { "source": "/users/:path*", "destination": "/api/users/:path*" }
+  ]
+}
